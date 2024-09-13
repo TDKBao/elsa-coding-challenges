@@ -1,4 +1,4 @@
-<img width="914" alt="Screenshot 2024-09-13 at 19 53 09" src="https://github.com/user-attachments/assets/2334a1bb-a81c-4c59-85a7-870d8c6c1e43"><img width="914" alt="Screenshot 2024-09-13 at 19 53 18" src="https://github.com/user-attachments/assets/8a9987f7-8df9-475f-a79a-d1daa7f206e7"><img width="914" alt="Screenshot 2024-09-13 at 19 53 31" src="https://github.com/user-attachments/assets/19f19346-a883-404f-9753-5d19ab4a4ded"># Flutter Real-Time Vocabulary Quiz Coding Challenge
+# Flutter Real-Time Vocabulary Quiz Coding Challenge
 Author: BaoTDK
 
 ## System Design Documents
