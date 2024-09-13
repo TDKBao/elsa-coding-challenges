@@ -1,9 +1,9 @@
-# Flutter Real-Time Vocabulary Quiz Coding Challenge
+<img width="914" alt="Screenshot 2024-09-13 at 19 53 09" src="https://github.com/user-attachments/assets/2334a1bb-a81c-4c59-85a7-870d8c6c1e43"><img width="914" alt="Screenshot 2024-09-13 at 19 53 18" src="https://github.com/user-attachments/assets/8a9987f7-8df9-475f-a79a-d1daa7f206e7"><img width="914" alt="Screenshot 2024-09-13 at 19 53 31" src="https://github.com/user-attachments/assets/19f19346-a883-404f-9753-5d19ab4a4ded"># Flutter Real-Time Vocabulary Quiz Coding Challenge
 Author: BaoTDK
 
 ## System Design Documents
 ### Architecture Diagram
-![architecture](https://github.com/user-attachments/assets/9a233cb5-dc14-4be8-87ec-52a12ef3aa1e)
+![architecture](https://github.com/user-attachments/assets/18005fea-b105-4acc-9bec-cf28c879d380)
 
 ### Component Descriptions
 
@@ -72,9 +72,9 @@ Author: BaoTDK
    - Supports deep linking and web URLs
 
 ### Screenshot App
-<img width="914" alt="Screenshot 2024-09-13 at 19 53 31" src="https://github.com/user-attachments/assets/a922a78a-c194-4c6c-aa98-1b4a228d2e20">
-<img width="914" alt="Screenshot 2024-09-13 at 19 53 18" src="https://github.com/user-attachments/assets/9e39ed4f-a79c-467d-8f67-10f95ced50f1">
-<img width="914" alt="Screenshot 2024-09-13 at 19 53 09" src="https://github.com/user-attachments/assets/c9a5aa2a-91d5-4bdb-ab16-e84183df93ed">
+<img width="914" alt="Screenshot 2024-09-13 at 19 53 09" src="https://github.com/user-attachments/assets/2e347269-5f26-4cfd-911f-5a79b1a5101e">
+<img width="914" alt="Screenshot 2024-09-13 at 19 53 18" src="https://github.com/user-attachments/assets/3c97327f-53c8-456b-945d-6558c5f217d9">
+<img width="914" alt="Screenshot 2024-09-13 at 19 53 31" src="https://github.com/user-attachments/assets/1f420528-4411-47a5-b95e-3c81083e8bc2">
 
 
 ### APK Install
