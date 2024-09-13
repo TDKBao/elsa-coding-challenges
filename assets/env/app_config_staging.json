@@ -1,0 +1,3 @@
+{
+    "LOCAL_QUIZ_QUESTIONS": "{\"quiz_questions\":[{\"id\":\"1\",\"text\":\"What'sthemeaningof'ubiquitous'?\",\"options\":[\"Rare\",\"Everywhere\",\"Unique\",\"Ancient\"],\"correctAnswer\":\"Everywhere\"},{\"id\":\"2\",\"text\":\"Define'ephemeral'.\",\"options\":[\"Lasting\",\"Temporary\",\"Solid\",\"Transparent\"],\"correctAnswer\":\"Temporary\"},{\"id\":\"3\",\"text\":\"Whatdoes'paradigm'mean?\",\"options\":[\"Example\",\"Paradox\",\"Model\",\"Contradiction\"],\"correctAnswer\":\"Model\"}]}"
+  }
