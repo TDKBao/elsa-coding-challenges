@@ -13,8 +13,10 @@ class QuizScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final QuizController controller = Get.put(QuizController(roomId, userName));
-
+    final QuizController controller = Get.put(
+      QuizController(roomId, userName),
+      tag: roomId,
+    );
     return Scaffold(
       appBar: AppBar(
         title: const Text(AppTextConstants.vocabularyQuizTitle),
@@ -24,8 +26,10 @@ class QuizScreen extends StatelessWidget {
                 child: Center(
                   child: Text(
                     AppTextConstants.currentQuestion
-                        .replaceAll('###currentQuestion###',
-                            (controller.currentQuestionIndex.value + 1).toString())
+                        .replaceAll(
+                            '###currentQuestion###',
+                            (controller.currentQuestionIndex.value + 1)
+                                .toString())
                         .replaceAll('###totalQuestions###',
                             controller.questions.length.toString()),
                     style: const TextStyle(fontSize: 16),

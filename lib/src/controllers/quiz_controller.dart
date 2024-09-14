@@ -28,6 +28,7 @@ class QuizController extends GetxController {
   final isQuizCompleted = false.obs;
 
   QuizController(String quizId, String userName) {
+     reset(quizId, userName);
     this.quizId.value = quizId;
     this.userName.value = userName;
   }
@@ -38,7 +39,20 @@ class QuizController extends GetxController {
     _ensureSignedIn();
   }
 
+  void reset(String newQuizId, String newUserName) {
+    quizId.value = newQuizId;
+    userName.value = newUserName;
+    scores.clear();
+    participants.clear();
+    currentQuestion.value = null;
+    questions.clear();
+    currentQuestionIndex.value = 0;
+    leaderboardPage.value = 0;
+    isQuizCompleted.value = false;
+  }
+
   Future<void> _initializeQuiz() async {
+    reset(quizId.value, userName.value);
     await _addQuestionsIfNeeded();
     _listenToQuizChanges();
     _loadQuestions();
